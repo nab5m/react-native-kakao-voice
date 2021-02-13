@@ -3,12 +3,11 @@ import * as React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import KakaoVoice from 'react-native-kakao-voice';
 
-
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  const [result] = React.useState<number | undefined>();
 
   React.useEffect(() => {
-    KakaoVoice.multiply(3, 7).then(setResult);
+    KakaoVoice.play('안녕');
   }, []);
 
   return (

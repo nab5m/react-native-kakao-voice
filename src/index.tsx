@@ -1,7 +1,7 @@
 import { NativeModules } from 'react-native';
 
 type KakaoVoiceType = {
-  multiply(a: number, b: number): Promise<number>;
+  play(message: string): void;
 };
 
 const { KakaoVoice } = NativeModules;
