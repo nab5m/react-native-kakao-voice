@@ -10,6 +10,7 @@ kakao voice api
 
 ```sh
 npm install react-native-kakao-voice
+react-native link react-native-kakao-voice
 ```
 
 ## Usage
