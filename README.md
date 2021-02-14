@@ -14,6 +14,8 @@ kakao voice api
 npm install react-native-kakao-voice
 react-native link react-native-kakao-voice
 ```
+사용하기 전에 카카오 앱키를 설정해주세요<br>
+[참고](https://github.com/react-native-seoul/react-native-kakao-login#android-1)
 
 ## Usage
 example 프로젝트를 참고해주세요 <br>
